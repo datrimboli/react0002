@@ -1,4 +1,5 @@
 import React from 'react'
+import './Card.css'
 let person = {
   name: 'John Doe',
   email: 'johndoe@gmail.com',

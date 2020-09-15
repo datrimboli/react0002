@@ -1,4 +1,5 @@
 import React from 'react'
+import './Form.css'
 
 const Form = () => {
 return (
@@ -14,7 +15,7 @@ return (
   </div>
         <div className="form-group form-check">
           <input type="checkbox" className="form-check-input" id="exampleCheck1"/>
-            <label className="form-check-label" for="exampleCheck1">Check me out</label>
+            <label className="form-check-label blue" for="exampleCheck1">Check me out</label>
   </div>
           <button type="submit" className="btn btn-primary">Submit</button>
 </form>
